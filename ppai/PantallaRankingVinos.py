@@ -16,8 +16,8 @@ class PantallaRankingVinos:
         self.root.resizable(False, False)  # Hace que la ventana no sea redimensionable
 
         # Carga la imagen de fondo
-        self.background_image = PhotoImage(file="C:/Users/maxic/Desktop/ppai/pantalla.png")
-
+        #self.background_image = PhotoImage(file="C:/Users/maxic/Desktop/ppai/pantalla.png")
+        self.background_image = PhotoImage(file="/home/dario/proyectosvisualcode/PPAIDSI3k4/grupo3PPAI3k4/ppai/pantalla.png")
         # Coloca la imagen de fondo en un label
         self.background_label = tk.Label(self.root, image=self.background_image)
         self.background_label.place(x=0, y=0, relwidth=1, relheight=1)
