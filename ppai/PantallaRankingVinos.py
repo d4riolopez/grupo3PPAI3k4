@@ -1,3 +1,4 @@
+import os
 import tkinter as tk
 from tkinter import PhotoImage, messagebox
 from tkcalendar import Calendar  # Librería externa para el calendario
@@ -16,7 +17,10 @@ class PantallaRankingVinos:
         self.root.resizable(False, False)  # Hace que la ventana no sea redimensionable
 
         # Carga la imagen de fondo
-        self.background_image = PhotoImage(file="C:/Users/maxic/Desktop/ppai/pantalla.png")
+        script_dir = os.path.dirname(os.path.abspath(__file__))  # Obtiene el directorio del script actual
+        image_path = os.path.join(script_dir, "pantalla.png")  # Construye la ruta completa de la imagen
+        
+        self.background_image = PhotoImage(file=image_path)
 
         # Coloca la imagen de fondo en un label
         self.background_label = tk.Label(self.root, image=self.background_image)
@@ -36,14 +40,14 @@ class PantallaRankingVinos:
 
     def mostrar_ingresar_fechas(self):
         # Crear los atributos para las fechas
-        self.fecha_desde_lbl = tk.Label(self.root, text="Fecha desde:")
-        self.fecha_desde_lbl.place(relx=0.3, rely=0.25, anchor="center")  # 1 cm más abajo
+        self.fechaDesdelbl = tk.Label(self.root, text="Fecha desde:")
+        self.fechaDesdelbl.place(relx=0.3, rely=0.25, anchor="center")  # 1 cm más abajo
 
         self.calendario_desde = Calendar(self.root, selectmode="day", year=2024, month=1, day=1)
         self.calendario_desde.place(relx=0.3, rely=0.50, anchor="center")  # 1 cm más abajo
 
-        self.fecha_hasta_lbl = tk.Label(self.root, text="Fecha hasta:")
-        self.fecha_hasta_lbl.place(relx=0.7, rely=0.25, anchor="center")  # 1 cm más abajo
+        self.fechaHastalbl = tk.Label(self.root, text="Fecha hasta:")
+        self.fechaHastalbl.place(relx=0.7, rely=0.25, anchor="center")  # 1 cm más abajo
 
         self.calendario_hasta = Calendar(self.root, selectmode="day", year=2024, month=1, day=1)
         self.calendario_hasta.place(relx=0.7, rely=0.50, anchor="center")  # 1 cm más abajo
@@ -68,9 +72,9 @@ class PantallaRankingVinos:
             respuesta = self.gestor.tomarSelFechaDesdeHasta(fecha_desde, fecha_hasta)
             if respuesta:
                 print('gestor tiene las fechas')
-                self.fecha_desde_lbl.destroy()
+                self.fechaDesdelbl.destroy()
                 self.calendario_desde.destroy()
-                self.fecha_hasta_lbl.destroy()
+                self.fechaHastalbl.destroy()
                 self.calendario_hasta.destroy()
                 self.btn_guardar_fechas.destroy()
                 self.tomar_tipo_reseña()
@@ -147,7 +151,7 @@ class PantallaRankingVinos:
     def confirmacion_generacion_informe(self,eleccion):
         print(eleccion)
         if eleccion == "Si":
-            self.gestor.tomarConfirmacionGenRepo(True)
+            self.gestor.tomarConfirmacionGenRepo()
         else:
             print("Se ha cancelado el registro del reporte.")
             # Reinicia la pantalla

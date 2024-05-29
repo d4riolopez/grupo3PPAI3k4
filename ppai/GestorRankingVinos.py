@@ -1,4 +1,4 @@
-from Vino import Vino
+import Vino
 class GestorRankingVinos:
     def __init__(self):
         self.fecha_desde = None
@@ -30,13 +30,16 @@ class GestorRankingVinos:
     def confirmarExportacion(self,):
         pass
     
-    def tomarConfirmacionGenRepo(self,eleccion):
-        if eleccion:
-            pass
+    def tomarConfirmacionGenRepo(self):
+        print('entro a tomar confirmacion')
+        self.buscarVinosConReservasEnPeriodo()
     
-    def buscarVinosConReservasEnPeriodo(self, fechaDesde, fechaHasta):
-        for vino in self.vinos:
-            if vino.tenesReseñasDeTipoEnPeriodo(fechaDesde, fechaHasta):
+    def buscarVinosConReservasEnPeriodo(self):
+        print('entro a Buscar vinos con reservas en periodo')
+        print(self.fecha_desde+'  '+ self.fecha_hasta)
+        for vino in Vino:
+            
+            if vino.tenesReseñasDeTipoEnPeriodo(self.fecha_desde, self.fecha_hasta):
                 nombreVino = vino.nombre
                 bodega = vino.bodega.nombre
                 region, pais = vino.obtenerRegionYPais()
@@ -48,7 +51,7 @@ class GestorRankingVinos:
                     "pais": pais,
                     "varietal_descripcion": varietal_descripcion
                 })
-        return self.buscarVinosConReservasEnPeriodo
+        return True
     
     def calcularPuntajeDeSommelierEnPeriodo():
         pass
