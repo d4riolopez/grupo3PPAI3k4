@@ -1,0 +1,23 @@
+import openpyxl
+from openpyxl import Workbook
+
+# Crear un nuevo libro de trabajo
+wb = Workbook()
+
+# Seleccionar la hoja de trabajo activa
+ws = wb.active
+
+# Escribir algunos datos en la hoja
+ws['A1'] = 'Nombre'
+ws['B1'] = 'Edad'
+ws['A2'] = 'Juan'
+ws['B2'] = 28
+ws['A3'] = 'Ana'
+ws['B3'] = 22
+ws['A4'] = 'Luis'
+ws['B4'] = 35
+
+# Guardar el archivo
+wb.save("example.xlsx")
+
+print("Archivo Excel creado exitosamente.")
