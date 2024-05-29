@@ -1,0 +1,5 @@
+pip install pillow
+pip install tkcalendar --User
+pip install pandas
+la imagen fijense la ruta y cambienlo sino no les anda
+linea 19 en pantalla ranking vino 
