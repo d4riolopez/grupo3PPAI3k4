@@ -17,7 +17,7 @@
 <img alt="Diagrama de Secuencia de la realizacion del CU 24" src="https://github.com/d4riolopez/grupo3PPAI3k4/blob/dario/Diagrama%20de%20Secuencia.png?raw=true" title="Diagrama de Secuencia de la realizacion del CU 24"/>
 
 <h2>Diagrama de Clases de Analisis UML</h2>
-<img alt="Diagrama de Clases de Analisis" src="" title="Diagrama de Clases de Analisis"/>
+<img alt="Diagrama de Clases de Analisis" src="https://github.com/d4riolopez/grupo3PPAI3k4/blob/dario/Diagrama%20de%20Clases.png?raw=true" title="Diagrama de Clases de Analisis"/>
 
 
 <h2>Ubicacion del proyecto</h2>
