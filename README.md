@@ -1,4 +1,3 @@
-# grupo3PPAI3k4
 # PPAI DSI 3k4 -Grupo3
 <h2> Grupo N° 3 - Integrantes: </h2>
 
@@ -14,7 +13,7 @@
 <img alt="CU 24 Generar ranking de vinos" src="https://github.com/d4riolopez/grupo3PPAI3k4/blob/dario/CU24%20Generar%20ranking%20de%20vinos.png" title="CU 24 Generar ranking de vinos"/>
 
 <h2>Diagrama de Secuencia de la realizacion del CU 24 Generar ranking de vinos</h2>
-<img alt="DER  Modelo de Datos" src="/home/dario/proyectosvisualcode/PPAIDSI3k4/grupo3PPAI3k4/Bonvino.html" title="Diagrama de Secuencia de la realizacion del CU 24"/>
+<img alt="Diagrama de Secuencia de la realizacion del CU 24" src="/home/dario/proyectosvisualcode/PPAIDSI3k4/grupo3PPAI3k4/Bonvino.html" title="Diagrama de Secuencia de la realizacion del CU 24"/>
 
 <h2>Diagrama de Clases de Analisis UML</h2>
 <img alt="Diagrama de Clases de Analisis" src="/home/dario/proyectosvisualcode/PPAIDSI3k4/grupo3PPAI3k4/Diagrama_de_Clases.html" title="Diagrama de Clases de Analisis"/>
