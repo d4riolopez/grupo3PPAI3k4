@@ -14,10 +14,10 @@
 <img alt="CU 24 Generar ranking de vinos" src="https://github.com/d4riolopez/grupo3PPAI3k4/blob/dario/CU24%20Generar%20ranking%20de%20vinos.png" title="CU 24 Generar ranking de vinos"/>
 
 <h2>Diagrama de Secuencia de la realizacion del CU 24 Generar ranking de vinos</h2>
-<img alt="Diagrama de Secuencia de la realizacion del CU 24" src="/home/dario/proyectosvisualcode/PPAIDSI3k4/grupo3PPAI3k4/Bonvino.html" title="Diagrama de Secuencia de la realizacion del CU 24"/>
+<img alt="Diagrama de Secuencia de la realizacion del CU 24" src="" title="Diagrama de Secuencia de la realizacion del CU 24"/>
 
 <h2>Diagrama de Clases de Analisis UML</h2>
-<img alt="Diagrama de Clases de Analisis" src="/home/dario/proyectosvisualcode/PPAIDSI3k4/grupo3PPAI3k4/Diagrama_de_Clases.html" title="Diagrama de Clases de Analisis"/>
+<img alt="Diagrama de Clases de Analisis" src="" title="Diagrama de Clases de Analisis"/>
 
 
 <h2>Ubicacion del proyecto</h2>
