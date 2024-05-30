@@ -1,5 +1,5 @@
-# grupo3PPAI3k4
 # PPAI DSI 3k4 -Grupo3
+
 <h2> Grupo N° 3 - Integrantes: </h2>
 
 - `Dario Lopez`
@@ -14,7 +14,7 @@
 <img alt="CU 24 Generar ranking de vinos" src="/home/dario/proyectosvisualcode/PPAIDSI3k4/grupo3PPAI3k4/CU24 Generar ranking de vinos.png" title="CU 24 Generar ranking de vinos"/>
 
 <h2>Diagrama de Secuencia de la realizacion del CU 24 Generar ranking de vinos</h2>
-<img alt="DER  Modelo de Datos" src="/home/dario/proyectosvisualcode/PPAIDSI3k4/grupo3PPAI3k4/Bonvino.html" title="DER  Modelo de Datos"/>
+<img alt="Diagrama de Secuencia de la realizacion del CU 24" src="/home/dario/proyectosvisualcode/PPAIDSI3k4/grupo3PPAI3k4/Bonvino.html" title="Diagrama de Secuencia de la realizacion del CU 24"/>
 
 <h2>Diagrama de Clases de Analisis UML</h2>
 <img alt="Diagrama de Clases" src="/home/dario/proyectosvisualcode/PPAIDSI3k4/grupo3PPAI3k4/Diagrama_de_Clases.html" title="Diagrama de Clases"/>
